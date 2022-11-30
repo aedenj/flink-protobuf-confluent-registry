@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package dinosaurs;
+
+option java_package = "com.dinosaurs";
+
+message Dinosaur {
+  // Common name of this dinosaur, like "Stegosaurus".
+  string name = 1;
+}
